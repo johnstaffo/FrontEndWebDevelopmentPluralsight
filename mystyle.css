@@ -1,6 +1,7 @@
 body {
     color: green;
 }
+
 p {
     color: red;
 }
@@ -19,15 +20,37 @@ p {
     padding: 5px;
 }
 
+#special {
+    background-color: purple;
+}
+
 div {
     height: 100px;
     width: 200px;
     border: 2px solid red;
     background-color: orange;
-    margin: 250px;
+    margin: 25px;
     padding-top: 50px;
 }
 
 * {
     box-sizing: border-box;
+}
+
+.this-class {
+    background-color: green;
+}
+
+.this-class.another-class {
+    background-color: blue
+}
+
+.parent-div {
+    background-color: inherit;
+    border-color: transparent;
+    height: auto;
+}
+
+.parent-div div {
+    background-color: cyan
 }
