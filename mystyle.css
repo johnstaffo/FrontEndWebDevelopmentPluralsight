@@ -18,3 +18,16 @@ p {
     margin-bottom: 5px;
     padding: 5px;
 }
+
+div {
+    height: 100px;
+    width: 200px;
+    border: 2px solid red;
+    background-color: orange;
+    margin: 250px;
+    padding-top: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
