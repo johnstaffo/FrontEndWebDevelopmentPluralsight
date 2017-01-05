@@ -1,0 +1,20 @@
+body {
+    color: green;
+}
+p {
+    color: red;
+}
+
+.leading-p {
+    color: blue;
+}
+
+.secondary-p {
+    color: purple;
+}
+
+.blog-post {
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding: 5px;
+}
