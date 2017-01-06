@@ -29,8 +29,8 @@ div {
     width: 200px;
     border: 2px solid red;
     background-color: orange;
-    margin: 25px;
-    padding-top: 50px;
+    margin: 50px auto 20px auto;
+    padding: 10px 20px;
 }
 
 * {
@@ -46,11 +46,12 @@ div {
 }
 
 .parent-div {
-    background-color: inherit;
+    background-color: blue;
     border-color: transparent;
     height: auto;
+    width: 40%;
 }
 
 .parent-div div {
-    background-color: cyan
+    background-color: cyan;
 }
