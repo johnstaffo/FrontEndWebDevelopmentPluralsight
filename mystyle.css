@@ -24,14 +24,14 @@ p {
     background-color: purple;
 }
 
-div {
-    height: 100px;
-    width: 200px;
-    border: 2px solid red;
-    background-color: orange;
-    margin: 25px;
-    padding-top: 50px;
-}
+/*div {*/
+    /*height: 100px;*/
+    /*width: 200px;*/
+    /*border: 2px solid red;*/
+    /*background-color: orange;*/
+    /*margin: 25px;*/
+    /*padding-top: 50px;*/
+/*}*/
 
 * {
     box-sizing: border-box;
