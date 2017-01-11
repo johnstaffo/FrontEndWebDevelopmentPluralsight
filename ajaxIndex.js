@@ -10,3 +10,13 @@ $('btn').click(function() {
         dataType : 'jsonp',
     });
 });
+
+
+$.ajax({
+    type: "POST",
+    url: prequalInput.action,
+    data: postData,
+    dataType: "json",
+    success: prequalInput.success,
+    error: prequalInput.error
+});
